@@ -1,4 +1,21 @@
+:root {
+  /* Day Scheme */
+  --sand: #e5ca6d;
+  --lava: #f18632;
+  --magma: #bd1205;
+  --crust: #2e1d0d;
+  --halo: #ffffff;
 
+  /* Transiton colors  */
+  --med-wood: #2e1d0d;
+  --dark-wood: #130e08;
+
+  /* Night Scheme */
+  --midnight: #4b5f9a;
+  --glow: #dcb131;
+  --ribbon: #ed839e;
+  --steel: #b3b3b3;
+}
 
 
 
@@ -7,4 +24,21 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
+
+  /* defaults to darkmode */
+  padding: 25px;
+  background-color: var(--midnight);
+  color: var(--halo);
+  font-size: 25px;
+  
+  
+  /* light mode */
+  .dark-mode {
+    background-color: var(--lava);
+    color: var(--crust);
+  }
+
+
 }
+
+
