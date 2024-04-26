@@ -62,7 +62,7 @@ h1 {
 .top {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .left {
@@ -122,4 +122,16 @@ aside {
   flex-direction: column;
   display: flex;
   align-items: center;
+}
+
+
+footer {
+  text-align: center;
+}
+
+.contact-text {
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
 }
