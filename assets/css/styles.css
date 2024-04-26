@@ -1,44 +1,125 @@
-:root {
-  /* Day Scheme */
+
+/* Day Scheme */
+[data-theme="light"] {
   --sand: #e5ca6d;
   --lava: #f18632;
   --magma: #bd1205;
   --crust: #2e1d0d;
   --halo: #ffffff;
+}
 
-  /* Transiton colors  */
-  --med-wood: #2e1d0d;
-  --dark-wood: #130e08;
-
-  /* Night Scheme */
+  
+/* Night Scheme */
+[data-theme="dark"] {
   --midnight: #4b5f9a;
   --glow: #dcb131;
   --ribbon: #ed839e;
   --steel: #b3b3b3;
 }
 
+nav {
+  text-align: right;
+  display: flex;
+  position: relative;
+  justify-content: left;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.75rem;
+  text-align: center;
+  color: var(--glow);
+  position: relative;
+  padding: 10px;
+  text-shadow: black 0 0 .3rem; 
+  &:hover {
+    color: var(--steel);
+  }
+}
+
+a.light {
+  text-decoration: none;
+  font-size: 1.75rem;
+  text-align: center;
+  color: var(--lava);
+  position: relative;
+  padding: 10px;
+  text-shadow: black 0 0 .3rem; 
+  &:hover {
+    color: var(--magma);
+  }
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.left {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+
+
+main {
+  width: 100%;
+  padding: 15px;
+}
+
+
 
 
 body {
-  font-family: "Libre Barcode 39 Text", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
 
-  /* defaults to darkmode */
-  padding: 25px;
-  background-color: var(--midnight);
-  color: var(--halo);
-  font-size: 25px;
-  
-  
-  /* light mode */
-  .dark-mode {
-    background-color: var(--lava);
-    color: var(--crust);
+  .gfs-neohellenic-regular {
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
+  background-color: var(--midnight);
+  color: var(--glow);
 
 }
 
 
+
+/* Theme Switch Button */
+button {
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  border: .25rem solid var(--ribbon)
+}
+
+/* Submit Button */
+.btn {
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  border: .25rem solid var(--ribbon);
+}
+
+.form-selection {
+  float: right;
+}
+
+aside {
+  padding:40px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
