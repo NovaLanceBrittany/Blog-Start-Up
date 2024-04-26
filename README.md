@@ -40,8 +40,14 @@ I created a 2 page blog website for personal use. I have provided a space that a
 
 The following images demonstrates the application functionality:
 
-![A user adds a blog through a form, then the post appears on the following page.](./assets/(screenshot))
+![A user adds a blog through a form, then the post appears on the following page.](./assets/images/home-pg-sh.png)
 
+A user can review all of the submitted posts.
+![A user can review all of the submitted posts.](./assets/images/posts-pg-sh.png)
+
+A user can experience this blog in light mode or darkmode
+![A user can experience this blog in light mode or darkmode](./assets/images/lightmode-home-sh.png)
+![](./assets/images/lightmode-posts-sh.png)
 
 
 ## The Deployment:
