@@ -52,6 +52,6 @@ A user can experience this blog in light mode or darkmode
 
 ## The Deployment:
 
-The Repo: (link)
+[The Repo:](https://github.com/NovaLanceBrittany/HW-04-Blog-Start-Up)
 
-The Deployment: (link)
+[The Deployment:](https://novalancebrittany.github.io/HW-04-Blog-Start-Up/)
