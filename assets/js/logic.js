@@ -22,7 +22,8 @@ function updateButton({ buttonEl, isDark }) {
 
 // Updates the HTML Tag
 function updateThemeOnHtmlEl({ theme }) {
-  document.querySelector("html").setAttribute("data-theme", theme);
+  document.querySelector("html").setAttribute("class", theme);
+  document.querySelector("body").setAttribute("class", theme);
 }
 
 

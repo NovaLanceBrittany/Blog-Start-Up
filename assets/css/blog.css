@@ -1,0 +1,48 @@
+/* Day Scheme */
+[data-theme="light"] {
+  --sand: #e5ca6d;
+  --lava: #f18632;
+  --magma: #bd1205;
+  --crust: #2e1d0d;
+  --halo: #ffffff;
+}
+
+  
+/* Night Scheme */
+[data-theme="dark"] {
+  --midnight: #4b5f9a;
+  --glow: #dcb131;
+  --ribbon: #ed839e;
+  --steel: #b3b3b3;
+}
+
+h2 {
+  text-align: center;
+}
+
+.blogcards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.storycards {
+  border-radius: 5px;
+  border: 3px solid var(--ribbon);
+  background-color: var(--steel);
+  color: var(--midnight);
+  padding: 15px;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

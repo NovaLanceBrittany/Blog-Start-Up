@@ -20,7 +20,7 @@ I created a 2 page blog website for personal use. I have provided a space that a
 
 - If the form is submitted with out a username, title, or content - A message should appear that prompts to complete the form.
 
-- The Posts Page should contain a header, with a light / dark mode toggle setting and a 'Back' button. 
+- The Posts Page should contain a header and a light / dark mode toggle setting. 
 
 - When the light/dark mode toggle setting is engaged, the page styles should update to reflect the selected setting. 
 
@@ -40,19 +40,9 @@ I created a 2 page blog website for personal use. I have provided a space that a
 
 The following images demonstrates the application functionality:
 
-![A user adds a blog through a form, then the post appears on the following page.](./assets/100-web-apis-challenge-demo.gif)
+![A user adds a blog through a form, then the post appears on the following page.](./assets/(screenshot))
 
 
-Gary notes: 
-create dummy data for a single blog post
-save that data to local storage
-how to send a user from one page to another
-read data that is in local storage and parse it into something useable
-display all the data on th screen
-
---
-
-create a form that will put each blog item in to the code
 
 ## The Deployment:
 
